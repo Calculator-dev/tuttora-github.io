@@ -6,7 +6,7 @@ import Home from './pages/Home/Home';
 const App: React.FC = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/tuttora-github.io" element={<Home />} />
             <Route path="/o-nama" element={<AboutPage />} />
         </Routes>
     );
