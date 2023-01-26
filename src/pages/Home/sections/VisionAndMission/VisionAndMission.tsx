@@ -18,7 +18,7 @@ export const VisionAndMission: React.FC = () => {
             <Header right="10%" bottom="30%">
                 Naša Vizija
             </Header>
-            <SubHeader right="10%" bottom="15%" TextAlign="right">
+            <SubHeader right="10%" bottom="19%" TextAlign="right">
                 je povezati mlade ljude cijelog svijeta pružajući <br />
                 neograničenu inovativnost i edukativni sadržaj.
             </SubHeader>

@@ -19,6 +19,12 @@ export const WelcomeMessage = styled.div`
     @media (max-width: 1024px) {
         font-size: 80px;
     }
+    @media (max-width: 768px) {
+        font-size: 70px;
+    }
+    @media (max-width: 537px) {
+        font-size: 50px;
+    }
 `;
 
 export const SubHeader = styled.div`
@@ -31,12 +37,26 @@ export const SubHeader = styled.div`
     @media (max-width: 1024px) {
         font-size: 45px;
     }
+    @media (max-width: 768px) {
+        font-size: 35px;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
+        padding-right: 50px;
+        padding-left: 105px;
+    }
 `;
 
 export const ButtonContainer = styled.div`
     width: fit-content;
     margin: 0 auto;
     padding-top: 250px;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        gap: 20px;
+    }
 `;
 
 export const FindTuttorButton = styled.button`
@@ -52,6 +72,16 @@ export const FindTuttorButton = styled.button`
         font-size: 35px;
         margin-right: 100px;
         padding: 15px 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 35px;
+        padding: 15px 70px;
+        margin-right: 0;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 15px 35px;
     }
 `;
 
@@ -72,5 +102,14 @@ export const BecomeTuttorButton = styled.button`
     @media (max-width: 1024px) {
         font-size: 35px;
         padding: 15px 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 35px;
+        padding: 15px 30px;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 15px 35px;
     }
 `;

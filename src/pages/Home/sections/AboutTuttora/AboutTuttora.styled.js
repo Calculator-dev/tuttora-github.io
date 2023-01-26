@@ -8,6 +8,9 @@ export const AboutTuttoraContainer = styled.div`
     background-image: url(${slicica});
     background-size: cover;
     background-repeat: no-repeat;
+    @media (max-width: 537px) {
+        height: 70vh;
+    }
 `;
 
 export const Header = styled.div`
@@ -18,6 +21,9 @@ export const Header = styled.div`
     font-size: 65px;
     color: white;
     position: relative;
+    @media (max-width: 537px) {
+        padding-top: 100px;
+    }
 `;
 
 export const BorderBottom = styled.div`
@@ -40,6 +46,9 @@ export const SubHeader = styled.div`
     }
     @media (max-width: 1024px) {
         font-size: 35px;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
     }
 `;
 
@@ -64,5 +73,10 @@ export const OurStoryButton = styled.div`
     @media (max-width: 1024px) {
         font-size: 30px;
         padding: 15px 40px;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 15px 35px;
     }
 `;

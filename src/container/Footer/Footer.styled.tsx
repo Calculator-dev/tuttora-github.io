@@ -16,11 +16,18 @@ export const LogoTextMenuContainer = styled.div`
     width: 90%;
     padding-top: 50px;
     justify-content: space-between;
+    @media (max-width: 1024px) {
+        width: 80%;
+    }
 `;
 
-export const LogoTextContainer = styled.div``;
+export const LogoTextContainer = styled.div`
+    width: 70%;
+`;
 
-export const MenuContianer = styled.div``;
+export const MenuContianer = styled.div`
+    /* width: 20%; */
+`;
 
 export const MenuItems = styled.div`
     border-bottom: 1px solid white;
@@ -32,6 +39,8 @@ export const MenuItems = styled.div`
     &:hover {
         color: #7ed957;
         border-bottom: 1px solid #7ed957;
+    }
+    @media (max-width: 1024px) {
     }
 `;
 
@@ -45,14 +54,26 @@ export const InfoContainer = styled.div`
     width: 90%;
     max-width: 100%;
     justify-content: space-between;
+    align-items: center;
     bottom: 10%;
+    @media (max-width: 1024px) {
+        width: 80%;
+    }
 `;
 
-export const AllrightReserver = styled.div``;
+export const AllrightReserver = styled.div`
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+`;
 
 export const LawRules = styled.div`
     display: flex;
     gap: 50px;
+    @media (max-width: 768px) {
+        gap: 10px;
+        font-size: 12px;
+    }
 `;
 
 export const Rules = styled.div`

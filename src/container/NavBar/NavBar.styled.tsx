@@ -51,6 +51,9 @@ export const Link = styled(NavLink)`
     @media (max-width: 1440px) {
         font-size: 16px;
     }
+    @media (max-width: 537px) {
+        font-size: 12px;
+    }
 `;
 
 export const LanguagueAndLoginContainer = styled.div`
@@ -120,6 +123,12 @@ export const MobileMenu = styled.div`
     background-repeat: repeat;
     /* top box shadow */
     box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+    @media (min-width: 768px) {
+        width: 60%;
+    }
+    @media (max-width: 537px) {
+        width: 80%;
+    }
 `;
 
 export const MobileMenuItems = styled(NavLink)`

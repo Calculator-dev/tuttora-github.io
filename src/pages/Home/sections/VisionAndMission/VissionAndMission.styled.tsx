@@ -44,6 +44,9 @@ export const SubHeader = styled.div<Props>`
     bottom: ${({ bottom }) => bottom};
     position: absolute;
     text-align: ${({ TextAlign }) => TextAlign};
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
 `;
 
 export const BottomBorder = styled.div<Props>`

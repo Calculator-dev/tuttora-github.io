@@ -8,6 +8,9 @@ export const MoreAboutTuttoraContainer = styled.div`
     background-image: url(${slicica});
     background-size: cover;
     background-repeat: no-repeat;
+    @media (max-width: 537px) {
+        height: 70vh;
+    }
 `;
 
 export const Header = styled.div`
@@ -19,6 +22,13 @@ export const Header = styled.div`
     color: white;
     @media (max-width: 1024px) {
         font-size: 40px;
+    }
+    @media (max-width: 768px) {
+        padding: 300px 0 300px 0;
+    }
+    @media (max-width: 537px) {
+        padding: 200px 0 200px 0;
+        font-size: 35px;
     }
 `;
 
@@ -52,5 +62,10 @@ export const RegisterButton = styled.button`
     @media (max-width: 1024px) {
         font-size: 35px;
         padding: 15px 40px;
+    }
+    @media (max-width: 537px) {
+        font-size: 25px;
+        border-radius: 10px;
+        padding: 15px 55px;
     }
 `;
