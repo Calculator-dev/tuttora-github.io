@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a25811df.css",
-    "main.js": "/static/js/main.f0e8fdef.js",
-    "static/media/VissionAndMission.jpg": "/static/media/VissionAndMission.f5ce0bda23578a147ef8.jpg",
-    "static/media/Home-section-one.jpg": "/static/media/Home-section-one.25aad1ca99b90a7e2dbc.jpg",
-    "static/media/AboutTuttora.jpg": "/static/media/AboutTuttora.90b53c0a8141ad3374a8.jpg",
-    "static/media/Dots.jpg": "/static/media/Dots.ce93c649723554c2344a.jpg",
-    "static/media/MoreAboutTuttora.jpg": "/static/media/MoreAboutTuttora.93cd321ed210307c6fff.jpg",
-    "static/media/tuttora-logo.svg": "/static/media/tuttora-logo.e8bf02974b834726e2a098e2b49b5277.svg",
-    "index.html": "/index.html",
-    "main.a25811df.css.map": "/static/css/main.a25811df.css.map",
-    "main.f0e8fdef.js.map": "/static/js/main.f0e8fdef.js.map"
+    "main.css": "/tuttora-github.io/static/css/main.a25811df.css",
+    "main.js": "/tuttora-github.io/static/js/main.8bcb1855.js",
+    "static/media/VissionAndMission.jpg": "/tuttora-github.io/static/media/VissionAndMission.f5ce0bda23578a147ef8.jpg",
+    "static/media/Home-section-one.jpg": "/tuttora-github.io/static/media/Home-section-one.25aad1ca99b90a7e2dbc.jpg",
+    "static/media/AboutTuttora.jpg": "/tuttora-github.io/static/media/AboutTuttora.90b53c0a8141ad3374a8.jpg",
+    "static/media/Dots.jpg": "/tuttora-github.io/static/media/Dots.ce93c649723554c2344a.jpg",
+    "static/media/MoreAboutTuttora.jpg": "/tuttora-github.io/static/media/MoreAboutTuttora.93cd321ed210307c6fff.jpg",
+    "static/media/tuttora-logo.svg": "/tuttora-github.io/static/media/tuttora-logo.e8bf02974b834726e2a098e2b49b5277.svg",
+    "index.html": "/tuttora-github.io/index.html",
+    "main.a25811df.css.map": "/tuttora-github.io/static/css/main.a25811df.css.map",
+    "main.8bcb1855.js.map": "/tuttora-github.io/static/js/main.8bcb1855.js.map"
   },
   "entrypoints": [
     "static/css/main.a25811df.css",
-    "static/js/main.f0e8fdef.js"
+    "static/js/main.8bcb1855.js"
   ]
 }
